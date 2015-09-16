@@ -84,6 +84,14 @@ article p	{font-size: 0.75em;
 	margin-left: 12px;
 	margin-right: 12px}
 
+article span{
+	display: none;
+}
+
+article time{
+	display: none;
+}
+
 /* フッター */
 footer	{color: #ffffff;
 	background-color: #005087;
@@ -142,6 +150,10 @@ img.photo-even	{float: left;
 
 <article itemscope itemtype="http://schema.org/Article">
 	<header id="postheader">
+		
+		<span itemprop="headline">森の工房について</span>
+		<time datetime="2015-09-16" itemprop="datePublished">2015-09-16</time>
+		
 		<h1 itemprop="name">森の工房について</h1>
 		
 		<p id="summary" itemprop="description">Forest Studioでは、自然の中にある「森の工房」を運営しています。森の工房では、四季を通してイベントを開催したり、さまざまな商品の開発を行っています。</p>
